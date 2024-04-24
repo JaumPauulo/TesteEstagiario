@@ -1,0 +1,104 @@
+:root {
+    --color-neutral-10: #0d1117;
+    --color-neutral-20: #161b22;
+    --color-neutral-30: #21262d;
+    --color-neutral-40: #30363d;
+    --color-neutral-50: #8b949e;
+    --color-neutral-60: #c9d1d9;
+    --color-neutral-70: #ffffff;
+    --color-link: #58a6ff;
+}
+
+h1{
+    color: #513ff7;
+}
+
+h2{
+    color: forestgreen;
+}
+
+p{
+    color: #ffffff;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0d1117;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-neutral-20);
+    width: 450px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #333;
+}
+
+.card_form {
+    max-width: 400px;
+    margin: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+
+}
+
+.input-group input {
+    color: var(--color-neutral-70);
+    margin: 5px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background-color: #0d1117;
+    outline: none;
+}
+
+.form_button button {
+    background-color: #513ff7;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    top: 10px;
+}
+
+.form_button button:hover {
+    background-color: #0f0096;
+}
+
+.card_mensagem {
+    margin: 30px;
+}
+
+.info_mensagem p {
+    font-size: 18px;
+
+}
